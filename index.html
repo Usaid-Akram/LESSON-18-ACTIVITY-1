@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari Adventure</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#safariNav" data-offset="60">
+
+    <nav id="safariNav" class="navbar navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">SafariNav</a>
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#forest">Forest</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#ocean">Ocean</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#desert">Desert</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div id="safariCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#safariCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#safariCarousel" data-slide-to="1"></li>
+            <li data-target="#safariCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="slide forest-slide">
+                    <h2>Explore the Forest</h2>
+                    <p>Discover beautiful forests and wildlife.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="slide ocean-slide">
+                    <h2>Discover the Ocean</h2>
+                    <p>Explore the amazing underwater world.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="slide desert-slide">
+                    <h2>Adventure in the Desert</h2>
+                    <p>Experience the beauty of the desert.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#safariCarousel"
+           role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#safariCarousel"
+           role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+
+    <div class="container">
+
+        <section id="forest" class="forest-section">
+            <h2>Forest Adventure</h2>
+            <p>
+                Forests are full of trees, plants, birds, and wild animals.
+                They are important homes for many living things.
+            </p>
+        </section>
+
+        <section id="ocean" class="ocean-section">
+            <h2>Ocean Adventure</h2>
+            <p>
+                The ocean is home to dolphins, whales, sea turtles,
+                and many other fascinating marine animals.
+            </p>
+        </section>
+
+        <section id="desert" class="desert-section">
+            <h2>Desert Adventure</h2>
+            <p>
+                Deserts have sandy landscapes, hot weather, and animals
+                that have adapted to survive with little water.
+            </p>
+        </section>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<footer class="footer">
+    <p>2026 Safari Adventure. All rights reserved.</p>
+    <p>Usaid Akram</p>
+</footer>
+</body>
+</html>
